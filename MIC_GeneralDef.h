@@ -21,12 +21,11 @@ typedef int8_t		INT8;		// signed, 8-bit integer
 #endif
 
 #ifndef CHAR8
-typedef char		CHAR8;		// charater, 8-bit integer, defined in uEFI
+typedef char		CHAR8;		// charater, 8-bit integer
 #endif
 
 #ifndef BOOL
 typedef BYTE		BOOL;		// a bit in a BYTE
-								// This is not used across the interface but is used in many places in the code. If the type were sent on the interface, it would have to have a type with a specific number of bytes.
 #endif
 
 #ifndef YES_NO
